@@ -10,6 +10,13 @@
   </head>
 
   <body>
+  <div class="navbar mb-3">
+    <h4>Simple Airbnb</h4>
+    <p> <%= link_to "Add Flat", new_flat_path, class: "btn btn-primary" %></p>
+  
+  </div>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>
